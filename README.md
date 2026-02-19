@@ -13,8 +13,8 @@ This project implements an Email Cadence system using Temporal.io with a monorep
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/jhetjhet/email-cadence.git
+cd email-cadence
 ```
 ## 2️⃣ Install Temporal CLI
 
