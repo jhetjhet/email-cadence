@@ -1,0 +1,21 @@
+// {
+//     "compilerOptions": {
+//         "target": "ES2023",
+//         "module": "commonjs",
+//         "strict": true,
+//         "esModuleInterop": true,
+//         "skipLibCheck": true
+//     }
+// }
+
+// <root>/tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "commonjs", // Base default, can be overridden
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

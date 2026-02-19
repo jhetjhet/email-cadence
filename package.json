@@ -1,0 +1,18 @@
+{
+    "name": "email-cadence",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "concurrently \"npm run dev:api\" \"npm run dev:web\" \"npm run dev:worker\"",
+        "dev:web": "npm run dev -w web",
+        "dev:api": "npm run start:dev -w api",
+        "dev:worker": "npm run dev -w worker"
+    },
+    "devDependencies": {
+        "concurrently": "^8.0.0",
+        "typescript": "^5.0.0"
+    }
+}
